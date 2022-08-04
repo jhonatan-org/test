@@ -15,11 +15,9 @@ import axios from 'axios'
       }
   })
   .then(function (response) {
-    console.log('---------------------------------------------------------------');
     console.log(response.data);
   })
   .catch(function (error) {
-    console.log('+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=');
     // console.log(error);
   })
   .then(function () {
